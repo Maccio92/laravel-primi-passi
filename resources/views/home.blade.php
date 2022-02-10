@@ -9,6 +9,5 @@
 <body>
     <h1>Ciao {{ $name }} {{ $lastname }}</h1>
     <h2>La tua cittadinanza: {{ $cittadinanza }}</h2>
-
 </body>
 </html>
