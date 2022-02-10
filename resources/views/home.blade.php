@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="/resources/views/contact.blade.php">Contatti</a></li>
+            <li><a href="/resources/views/about.blade.php">About</a></li>
+        </ul>
+    </header>
     <h1>Ciao {{ $name }} {{ $lastname }}</h1>
     <h2>La tua cittadinanza: {{ $cittadinanza }}</h2>
 </body>

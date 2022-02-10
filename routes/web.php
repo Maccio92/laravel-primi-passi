@@ -28,3 +28,10 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/resources/views/contact.blade.php', function () {
+    return view('contact');
+});
+Route::get('/resources/views/about.blade.php', function () {
+    return view('about');
+});
