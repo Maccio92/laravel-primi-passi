@@ -9,8 +9,8 @@
 <body>
     <header>
         <ul>
-            <li><a href="/resources/views/contact.blade.php">Contatti</a></li>
-            <li><a href="/resources/views/about.blade.php">About</a></li>
+            <li><a href="{{ route('contact')}}">Contatti</a></li>
+            <li><a href="{{ route('about')}}">About</a></li>
         </ul>
     </header>
     <h1>Ciao {{ $name }} {{ $lastname }}</h1>

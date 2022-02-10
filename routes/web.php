@@ -29,9 +29,16 @@ Route::get('/', function () {
     return view('home', $data);
 });
 
-Route::get('/resources/views/contact.blade.php', function () {
-    return view('contact');
-});
-Route::get('/resources/views/about.blade.php', function () {
-    return view('about');
-});
+Route::get('/contact', function () {
+    $data = [
+        'number' => '331 331331'
+    ];
+    return view('contact', $data);
+})->name('contact');
+
+Route::get('/about', function () {
+    $data = [
+        'indirizzo' => 'lorem ipsum'
+    ];
+    return view('about', $data);
+})->name('about');

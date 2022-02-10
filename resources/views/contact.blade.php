@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Contatti</h1>
+    <h2>Telefono: {{$number}}</h2>
 </body>
 </html>

@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>About</h1>
+    <h2>Descrizione: {{$indirizzo}}</h2>
 </body>
 </html>
